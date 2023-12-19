@@ -30,7 +30,7 @@ class CustomHelpCommand(commands.DefaultHelpCommand):
         await self.get_destination().send(embed=help_embed)
 
 
-token = "MTE4MzE3NTYzMzUzMTA1NjIzOQ.GOPMQN.YG2rmYSw-OZiI1Fg8HWftStRzgKB-px9GfT_Us"
+token = ""
 
 intents = discord.Intents.default()
 intents.message_content = True
